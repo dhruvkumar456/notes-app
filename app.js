@@ -7,6 +7,7 @@ const yargs=require('yargs');
 
 
 //add,remove,list,read
+//for sending the command through terminal....
 yargs.command({
     command:'add',
     describe:'this command is used to add data.',
